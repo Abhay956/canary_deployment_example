@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: app-version
+  name: app-v2
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: app-version
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: app-version
+    spec:
+      containers:
+      - image: docker.io/httpd
+        name: httpd
