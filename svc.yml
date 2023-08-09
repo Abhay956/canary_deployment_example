@@ -11,7 +11,7 @@ spec:
     protocol: TCP
     targetPort: 80
   selector:
-    app: app-version-1
+    app: app-version
   type: NodePort
 status:
   loadBalancer: {}
