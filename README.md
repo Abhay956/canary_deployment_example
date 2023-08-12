@@ -43,3 +43,6 @@ Run this command with your service IP, it will route on all pods, and the ratio 
 ```bash
   $  for VAR in {1..10}; do curl 10.110.204.186:80; done 
 ```
+
+![image](https://github.com/Abhay956/canary_deployment_example/assets/132220412/8821fa91-db27-484c-a523-b17a947bf5b8)
+
